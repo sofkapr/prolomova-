@@ -1,0 +1,21 @@
+#import math
+#a = float(input('Введите первую сторону прямоугольника: '))
+#b = float(input('Введите второю сторону прямоугольника: '))
+#area = a * b
+#print('Площад прямоугольника {area:.4f}')
+
+#while True:
+    #a = int(input('Введите первое число: '))
+    #b = int(input('Введите второе число: '))
+    #print('Сумма чисел: ', a+b)
+    #str = input('Нажмите Y или y для завершения программы:')
+    #if (str =='Y' or str =='y'): break
+
+
+import math
+n = int(input('Введите число:'))
+factorial = 1
+while n > 1:
+    factorial *= n
+    n -= 1
+print('Факториал равен:', factorial)
